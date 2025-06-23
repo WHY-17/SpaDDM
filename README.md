@@ -27,6 +27,7 @@ You'll need to install the following packages in order to run the codes.
   torch-spline-conv = 1.2.2+pt113cu116
   torchsummary = 1.5.1
   torchvision = 0.14.1  </pre>
+Moreover, you need install R-4.3.3 and R package mclust.
 # Tutorial
 For the step-by-step tutorial, please refer to:
 # Datasets
