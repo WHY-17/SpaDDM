@@ -1,0 +1,56 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="43">
+            <item index="0" class="java.lang.String" itemvalue="scipy" />
+            <item index="1" class="java.lang.String" itemvalue="networkx" />
+            <item index="2" class="java.lang.String" itemvalue="joblib" />
+            <item index="3" class="java.lang.String" itemvalue="anndata" />
+            <item index="4" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="5" class="java.lang.String" itemvalue="setuptools" />
+            <item index="6" class="java.lang.String" itemvalue="numpy" />
+            <item index="7" class="java.lang.String" itemvalue="pandas" />
+            <item index="8" class="java.lang.String" itemvalue="tensorflow_probability" />
+            <item index="9" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="10" class="java.lang.String" itemvalue="seaborn" />
+            <item index="11" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="12" class="java.lang.String" itemvalue="scanpy" />
+            <item index="13" class="java.lang.String" itemvalue="pyliger" />
+            <item index="14" class="java.lang.String" itemvalue="squidpy" />
+            <item index="15" class="java.lang.String" itemvalue="graphical_models" />
+            <item index="16" class="java.lang.String" itemvalue="rpy2" />
+            <item index="17" class="java.lang.String" itemvalue="leidenalg" />
+            <item index="18" class="java.lang.String" itemvalue="pot" />
+            <item index="19" class="java.lang.String" itemvalue="python-louvain" />
+            <item index="20" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="21" class="java.lang.String" itemvalue="cython" />
+            <item index="22" class="java.lang.String" itemvalue="pysal" />
+            <item index="23" class="java.lang.String" itemvalue="plotly" />
+            <item index="24" class="java.lang.String" itemvalue="anndata2ri" />
+            <item index="25" class="java.lang.String" itemvalue="tqdm" />
+            <item index="26" class="java.lang.String" itemvalue="python-igraph" />
+            <item index="27" class="java.lang.String" itemvalue="imageio" />
+            <item index="28" class="java.lang.String" itemvalue="umap-learn" />
+            <item index="29" class="java.lang.String" itemvalue="h5py" />
+            <item index="30" class="java.lang.String" itemvalue="scikit-network" />
+            <item index="31" class="java.lang.String" itemvalue="bokeh" />
+            <item index="32" class="java.lang.String" itemvalue="torch" />
+            <item index="33" class="java.lang.String" itemvalue="torch-geometric" />
+            <item index="34" class="java.lang.String" itemvalue="torchvision" />
+            <item index="35" class="java.lang.String" itemvalue="louvain" />
+            <item index="36" class="java.lang.String" itemvalue="episcanpy" />
+            <item index="37" class="java.lang.String" itemvalue="genomicranges" />
+            <item index="38" class="java.lang.String" itemvalue="iranges" />
+            <item index="39" class="java.lang.String" itemvalue="biocutils" />
+            <item index="40" class="java.lang.String" itemvalue="python" />
+            <item index="41" class="java.lang.String" itemvalue="R" />
+            <item index="42" class="java.lang.String" itemvalue="cudnn" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
