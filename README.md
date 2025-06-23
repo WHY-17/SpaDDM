@@ -27,3 +27,7 @@ You'll need to install the following packages in order to run the codes.
   torch-spline-conv = 1.2.2+pt113cu116
   torchsummary = 1.5.1
   torchvision = 0.14.1  </pre>
+# Tutorial
+For the step-by-step tutorial, please refer to:
+# Datasets
+All spatial multi-omics datasets analyzed in this study are publicly available. The spatial epigenome-transcriptome P22 mouse brain data can be downloaded from !(https://cells.ucsc.edu/?ds=brain-spatial-omics) or from AtlasXplore !(https://web.atlasxomics.com/visualization/Fan). The Stereo-CITE-seq mouse thymus data can also be obtained from AtlasXplore !(https://web.atlasxomics.com/visualization/Fan). SPOTS mouse spleen data was obtained from the Gene Expression Omnibus (GEO) repository under accession no. GSE198353. 10x Visium human lymph node data was acquired from the GEO repository under accession no. GSE263617. The mouse embryonic brain datasets acquired using MISAR-seq were downloaded from !https://www.biosino.org/node/project/detail/OEP003285.
