@@ -1,6 +1,6 @@
 # SpaDDM: Integrating Spatial Multi-omics with Directional Graph Diffusion Models to Dissect Spatial Patterning and Signaling
 Here, we present SpaDDM, a spatial multi-omics integration framework based on directional diffusion models (DDMs), which supports spatial pattern identification, cross-omics alignment, and inter-and intracellular signaling flow analysis.
-![SpaDDM workflow](https://github.com/WHY-17/SpaDDM/blob/main/SpaDDM%20workflow.jpg)
+![SpaDDM workflow](https://github.com/WHY-17/SpaDDM/blob/main/SpaDDM%20framework.jpg)
 # Overiew
 The SpaDDM model is designed for the integration analysis of spatial multi-omics data, including spatial domain identification, spatial signal flow inference, and cross-omics data translation, among other downstream tasks. SpaDDM is a deep learning framework based on graph diffusion models, with inputs consisting of omics features and spatial coordinates of cells or spots. It is a flexible computational framework that is not limited by the spatial resolution or platform technology of omics data. 
 # Requirements
