@@ -6,8 +6,7 @@ import pandas as pd
 import seaborn as sns
 from .preprocess import pca
 import matplotlib.pyplot as plt
-
-#os.environ['R_HOME'] = '/scbio4/tools/R/R-4.0.3_openblas/R-4.0.3'    
+  
 
 def mclust_R(adata, num_cluster, modelNames='EEE', used_obsm='emb_pca', random_seed=2020):
     """\
@@ -33,7 +32,7 @@ def mclust_R(adata, num_cluster, modelNames='EEE', used_obsm='emb_pca', random_s
     adata.obs['mclust'] = adata.obs['mclust'].astype('category')
     return adata
 
-def clustering(adata, n_clusters=7, key='emb', add_key='SpatialGlue', method='mclust', start=0.1, end=3.0, increment=0.01, use_pca=False, n_comps=20):
+def clustering(adata, n_clusters=7, key='emb', add_key='SpatialDDM', method='mclust', start=0.1, end=3.0, increment=0.01, use_pca=False, n_comps=20):
     """\
     Spatial clustering based the latent representation.
 
@@ -132,22 +131,3 @@ def search_res(adata, n_clusters, method='leiden', use_rep='emb', start=0.1, end
     assert label==1, "Resolution is not found. Please try bigger range or smaller step!." 
        
     return res     
-
-def plot_weight_value(alpha, label, modality1='mRNA', modality2='protein'):
-  """\
-  Plotting weight values
-  
-  """  
-  import pandas as pd  
-  
-  df = pd.DataFrame(columns=[modality1, modality2, 'label'])  
-  df[modality1], df[modality2] = alpha[:, 0], alpha[:, 1]
-  df['label'] = label
-  df = df.set_index('label').stack().reset_index()
-  df.columns = ['label_SpatialGlue', 'Modality', 'Weight value']
-  ax = sns.violinplot(data=df, x='label_SpatialGlue', y='Weight value', hue="Modality",
-                split=True, inner="quart", linewidth=1, show=False)
-  ax.set_title(modality1 + ' vs ' + modality2) 
-
-  plt.tight_layout(w_pad=0.05)
-  plt.show()     
