@@ -1,5 +1,8 @@
 Please follow the following pipelines to implement signal flow network inference for SpaDDM:
 1. Run flowsig_SISAR.py to obtain the basic results of FlowSig;
 2. Run MISAR_Specific_node_network_structurion.py to obtain CERs, inflow nodes, or outflow nodes related to a specific node;
-3. Go to the Gene-Peak_connection_ond_Sotif_analysis_SISAR folder and run it in order MISAR-scGLUE-Untitled.ipynb、MISAR-scGLUE-Untitled1.ipynb、MISAR-scGLUE-Untitled2.ipynb、MISAR-snapatac2.ipynb， Establish the association between Genes and Peaks to obtain TFs enriched on specific Peaks;
-4. Run MISAR_inflow_CER-TF_outflow_maulti layers construction-py to establish a four layer network from inflow - CER - TF - outflow.
+3. Go to the Gene-Peak_connection_ond_Sotif_analysis_SISAR folder and run it in order MISAR-scGLUE-Untitled.ipynb、MISAR-scGLUE-Untitled1.ipynb、MISAR-scGLUE-Untitled2.ipynb、
+MISAR-snapatac2.ipynb， establish the association between Genes and Peaks to obtain TFs enriched on specific Peaks;
+4. Run MISAR_inflow_CER-TF_outflow_maulti layers construction-py to establish a four layer network from inflow - CER - TF - outflow;
+5. Enter the flownetwork-sankyplot folder and run MISAR_inflow_CER-TF_outflow_plot. R to obtain the four layer network likes inflow--CER--TF--outflow reported in the manuscript;
+6. Run enrichment analysis. R to obtain enrichment analysis results for genes that contribute significantly to CERs, including GO and KEGG enrichment results.
