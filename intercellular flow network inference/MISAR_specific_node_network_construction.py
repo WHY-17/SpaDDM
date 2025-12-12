@@ -388,24 +388,8 @@ convert_format_for_plotting(network_global, 'global_flowsig_inflow_cer_outflow_n
 
 
 import pickle
-with open(data_file+"network_inflow_Edn1.pkl", "rb") as f:
-    pickle.load(network_inflow_Edn1, f)
+with open(data_file+"network_inflow_Edn1.pkl", "wb") as f:
+    pickle.dump(network_inflow_Edn1, f)
 
-with open(data_file+"network_outflow_Edn1.pkl", "rb") as f:
-    pickle.load(network_outflow_Edn1, f)
-
-
-
-with open(data_file + "inflow-Edn1_CER_TF_outflow_network.pkl", "rb") as f:
-    G_1 = pickle.load(f)
-G_2 = network_inflow_Edn1
-G_merged, TFs, outflow_nodes = network_merge(G_1, G_2)
-build_inflow_cer_tf_outflow_table(G_merged, TFs, outflow_nodes, 'inflow-Edn1-inflow_cer_tf_outflow_four_layers_network')
-
-
-
-with open(data_file + "Edn1_CER_TF_outflow_network.pkl", "rb") as f:
-    G_1 = pickle.load(f)
-G_2 = network_outflow_Edn1
-G_merged, TFs, outflow_nodes = network_merge(G_1, G_2)
-build_inflow_cer_tf_outflow_table(G_merged, TFs, outflow_nodes, 'Edn1-inflow_cer_tf_outflow_four_layers_network')
+with open(data_file+"network_outflow_Edn1.pkl", "wb") as f:
+    pickle.dump(network_outflow_Edn1, f)
