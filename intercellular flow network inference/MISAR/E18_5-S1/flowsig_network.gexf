@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="level" type="long" />
+    </attributes>
+    <nodes>
+      <node id="inflow-Edn1" label="inflow-Edn1">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-18" label="GEM-18">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="inflow-Fgf3" label="inflow-Fgf3">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-17" label="GEM-17">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="inflow-Sema3c" label="inflow-Sema3c">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-19" label="GEM-19">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="inflow-Fgf9" label="inflow-Fgf9">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-4" label="GEM-4">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="GEM-8" label="GEM-8">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="inflow-Sema3g" label="inflow-Sema3g">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-16" label="GEM-16">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="GEM-3" label="GEM-3">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fgf9" label="Fgf9">
+        <attvalues>
+          <attvalue for="0" value="outflow" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="GEM-9" label="GEM-9">
+        <attvalues>
+          <attvalue for="0" value="outflow" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rarres2" label="Rarres2">
+        <attvalues>
+          <attvalue for="0" value="outflow" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="GEM-11" label="GEM-11">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="GEM-14" label="GEM-14">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="GEM-10" label="GEM-10">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="GEM-1" label="GEM-1">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Edn1" label="Edn1">
+        <attvalues>
+          <attvalue for="0" value="outflow" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="inflow-Mdk" label="inflow-Mdk">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-7" label="GEM-7">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wnt7b" label="Wnt7b">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="GEM-5" label="GEM-5">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="GEM-20" label="GEM-20">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="GEM-2" label="GEM-2">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sema3g" label="Sema3g">
+        <attvalues>
+          <attvalue for="0" value="outflow" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="GEM-12" label="GEM-12">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fgf3" label="Fgf3">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="inflow-Rarres2" label="inflow-Rarres2">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-15" label="GEM-15">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wnt7a" label="Wnt7a">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="inflow-Pth2" label="inflow-Pth2">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="GEM-6" label="GEM-6">
+        <attvalues>
+          <attvalue for="0" value="module" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mdk" label="Mdk">
+        <attvalues>
+          <attvalue for="0" value="outflow" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sema3c" label="Sema3c">
+        <attvalues>
+          <attvalue for="0" value="outflow" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="inflow-Wnt7b" label="inflow-Wnt7b">
+        <attvalues>
+          <attvalue for="0" value="inflow" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="inflow-Edn1" target="GEM-18" id="0" weight="1.0" />
+      <edge source="inflow-Edn1" target="GEM-5" id="1" weight="0.8" />
+      <edge source="inflow-Edn1" target="GEM-1" id="2" weight="0.6" />
+      <edge source="inflow-Edn1" target="GEM-15" id="3" weight="0.4" />
+      <edge source="GEM-18" target="Fgf9" id="4" weight="1.0" />
+      <edge source="GEM-18" target="GEM-10" id="5" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-17" id="6" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-4" id="7" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-3" id="8" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-5" id="9" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-14" id="10" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-20" id="11" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-7" id="12" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-16" id="13" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-9" id="14" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-15" id="15" weight="1.0" />
+      <edge source="inflow-Fgf3" target="GEM-11" id="16" weight="0.7999999999999999" />
+      <edge source="inflow-Fgf3" target="GEM-10" id="17" weight="0.9" />
+      <edge source="inflow-Fgf3" target="GEM-8" id="18" weight="0.2" />
+      <edge source="inflow-Fgf3" target="GEM-12" id="19" weight="0.5" />
+      <edge source="inflow-Fgf3" target="GEM-1" id="20" weight="0.4" />
+      <edge source="inflow-Fgf3" target="GEM-18" id="21" weight="0.9" />
+      <edge source="GEM-17" target="GEM-14" id="22" weight="1.0" />
+      <edge source="GEM-17" target="GEM-20" id="23" weight="1.0" />
+      <edge source="GEM-17" target="Wnt7b" id="24" weight="0.4" />
+      <edge source="inflow-Sema3c" target="GEM-19" id="25" weight="1.0" />
+      <edge source="inflow-Sema3c" target="GEM-3" id="26" weight="1.0" />
+      <edge source="inflow-Sema3c" target="GEM-9" id="27" weight="1.0" />
+      <edge source="inflow-Sema3c" target="GEM-15" id="28" weight="1.0" />
+      <edge source="inflow-Sema3c" target="GEM-11" id="29" weight="1.0" />
+      <edge source="inflow-Sema3c" target="GEM-2" id="30" weight="1.0" />
+      <edge source="inflow-Sema3c" target="GEM-5" id="31" weight="0.30000000000000004" />
+      <edge source="inflow-Sema3c" target="GEM-8" id="32" weight="0.8999999999999999" />
+      <edge source="inflow-Sema3c" target="GEM-14" id="33" weight="0.7" />
+      <edge source="inflow-Sema3c" target="GEM-17" id="34" weight="1.0" />
+      <edge source="inflow-Sema3c" target="GEM-1" id="35" weight="1.0" />
+      <edge source="GEM-19" target="Fgf3" id="36" weight="0.2" />
+      <edge source="inflow-Fgf9" target="GEM-18" id="37" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-11" id="38" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-4" id="39" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-1" id="40" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-10" id="41" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-19" id="42" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-7" id="43" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-16" id="44" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-9" id="45" weight="1.0" />
+      <edge source="inflow-Fgf9" target="GEM-5" id="46" weight="0.2" />
+      <edge source="inflow-Fgf9" target="GEM-15" id="47" weight="0.8" />
+      <edge source="inflow-Fgf9" target="GEM-3" id="48" weight="1.0" />
+      <edge source="GEM-4" target="Wnt7a" id="49" weight="1.0" />
+      <edge source="GEM-8" target="GEM-18" id="50" weight="1.0" />
+      <edge source="GEM-8" target="GEM-16" id="51" weight="1.0" />
+      <edge source="GEM-8" target="Rarres2" id="52" weight="1.0" />
+      <edge source="GEM-8" target="GEM-19" id="53" weight="1.0" />
+      <edge source="GEM-8" target="Sema3g" id="54" weight="1.0" />
+      <edge source="GEM-8" target="Mdk" id="55" weight="0.7" />
+      <edge source="GEM-8" target="Sema3c" id="56" weight="1.0" />
+      <edge source="inflow-Sema3g" target="GEM-17" id="57" weight="1.0" />
+      <edge source="inflow-Sema3g" target="GEM-4" id="58" weight="1.0" />
+      <edge source="inflow-Sema3g" target="GEM-10" id="59" weight="1.0" />
+      <edge source="inflow-Sema3g" target="GEM-3" id="60" weight="1.0" />
+      <edge source="inflow-Sema3g" target="GEM-9" id="61" weight="1.0" />
+      <edge source="inflow-Sema3g" target="GEM-18" id="62" weight="1.0" />
+      <edge source="inflow-Sema3g" target="GEM-6" id="63" weight="0.4" />
+      <edge source="inflow-Sema3g" target="GEM-14" id="64" weight="0.2" />
+      <edge source="inflow-Sema3g" target="GEM-1" id="65" weight="0.5" />
+      <edge source="inflow-Sema3g" target="GEM-11" id="66" weight="1.0" />
+      <edge source="GEM-16" target="Mdk" id="67" weight="0.30000000000000004" />
+      <edge source="GEM-3" target="Mdk" id="68" weight="0.30000000000000004" />
+      <edge source="GEM-3" target="Wnt7a" id="69" weight="0.30000000000000004" />
+      <edge source="GEM-9" target="Rarres2" id="70" weight="1.0" />
+      <edge source="GEM-9" target="Sema3c" id="71" weight="0.7999999999999999" />
+      <edge source="GEM-9" target="Fgf9" id="72" weight="0.4" />
+      <edge source="GEM-11" target="Sema3c" id="73" weight="0.2" />
+      <edge source="GEM-14" target="Wnt7a" id="74" weight="0.2" />
+      <edge source="GEM-14" target="Fgf9" id="75" weight="0.30000000000000004" />
+      <edge source="GEM-1" target="Edn1" id="76" weight="1.0" />
+      <edge source="GEM-1" target="GEM-14" id="77" weight="1.0" />
+      <edge source="GEM-1" target="GEM-8" id="78" weight="1.0" />
+      <edge source="GEM-1" target="Wnt7a" id="79" weight="0.4" />
+      <edge source="GEM-1" target="Fgf3" id="80" weight="0.2" />
+      <edge source="GEM-1" target="Sema3c" id="81" weight="1.0" />
+      <edge source="GEM-1" target="GEM-2" id="82" weight="0.5" />
+      <edge source="GEM-1" target="Wnt7b" id="83" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-18" id="84" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-4" id="85" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-7" id="86" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-2" id="87" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-11" id="88" weight="0.2" />
+      <edge source="inflow-Mdk" target="GEM-8" id="89" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-19" id="90" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-16" id="91" weight="0.2" />
+      <edge source="inflow-Mdk" target="GEM-1" id="92" weight="1.0" />
+      <edge source="inflow-Mdk" target="GEM-17" id="93" weight="0.2" />
+      <edge source="inflow-Mdk" target="GEM-5" id="94" weight="1.0" />
+      <edge source="GEM-7" target="Wnt7b" id="95" weight="1.0" />
+      <edge source="GEM-5" target="Edn1" id="96" weight="1.0" />
+      <edge source="GEM-5" target="Rarres2" id="97" weight="0.6" />
+      <edge source="GEM-5" target="Mdk" id="98" weight="1.0" />
+      <edge source="GEM-2" target="GEM-9" id="99" weight="1.0" />
+      <edge source="GEM-2" target="GEM-8" id="100" weight="1.0" />
+      <edge source="GEM-2" target="Sema3g" id="101" weight="1.0" />
+      <edge source="GEM-2" target="Mdk" id="102" weight="1.0" />
+      <edge source="GEM-2" target="Wnt7b" id="103" weight="1.0" />
+      <edge source="GEM-2" target="GEM-1" id="104" weight="0.5" />
+      <edge source="GEM-2" target="Sema3c" id="105" weight="0.7" />
+      <edge source="GEM-12" target="Fgf3" id="106" weight="1.0" />
+      <edge source="inflow-Rarres2" target="GEM-16" id="107" weight="1.0" />
+      <edge source="inflow-Rarres2" target="GEM-18" id="108" weight="1.0" />
+      <edge source="inflow-Rarres2" target="GEM-20" id="109" weight="0.4" />
+      <edge source="inflow-Rarres2" target="GEM-15" id="110" weight="0.30000000000000004" />
+      <edge source="GEM-15" target="Sema3g" id="111" weight="0.30000000000000004" />
+      <edge source="GEM-15" target="Wnt7b" id="112" weight="0.4" />
+      <edge source="inflow-Pth2" target="GEM-10" id="113" weight="1.0" />
+      <edge source="inflow-Pth2" target="GEM-1" id="114" weight="0.7" />
+      <edge source="inflow-Pth2" target="GEM-3" id="115" weight="0.8" />
+      <edge source="inflow-Pth2" target="GEM-17" id="116" weight="0.2" />
+      <edge source="GEM-6" target="Sema3c" id="117" weight="0.4" />
+      <edge source="inflow-Wnt7b" target="GEM-1" id="118" weight="0.2" />
+    </edges>
+  </graph>
+</gexf>
